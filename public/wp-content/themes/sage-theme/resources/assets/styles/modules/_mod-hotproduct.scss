@@ -1,0 +1,30 @@
+.mod-hotproduct {
+  .slide-area {
+    h2 {
+      @apply pt-20 pl-20 font-montserrat uppercase;
+    }
+    .slide-item {
+     @apply border-r-1 border-gray-400;
+    }
+    .slick-next{
+      width: 39px;
+      height: 74px;
+      margin-right: 50px;
+    }
+    .slick-prev {
+      width: 39px;
+      height: 74px;
+      margin-left: 50px;
+    }
+    .btn{
+        background-color: #A6A6A6;
+        width: 39px;
+        height: 74px;
+       
+    }
+    span{
+        font-size: 20px;
+        color: white;
+    }
+  }
+}
